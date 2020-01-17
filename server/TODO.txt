@@ -1,0 +1,24 @@
+=== WEB ===
+Login
+Register
+Main
+Chat
+AddFriend
+Profile
+
+=== GET ===
+CheckID(string userid) -> return true or false /1
+Find/User(string name) -> return Error or UserList(Username, Userid) /1
+Profile(string userid) -> return Error or UserData /1
+
+
+=== POST ===
+Register(UserData) -> return true or Error
+Login(Userid, Password) -> return true or Error
+Edit/Profile(Username, UserPhoto) -> return true or Error
+Edit/Password(OldPassword, NewPassword) -> return true or Error
+List/Friend(Userid) -> return true or Error
+
+
+=== SOCKET ===
+chat(string userid) -> Start Chat

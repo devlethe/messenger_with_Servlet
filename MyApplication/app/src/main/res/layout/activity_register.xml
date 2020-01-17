@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+    <EditText
+        android:id="@+id/idtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="아이디"
+        app:layout_constraintEnd_toStartOf="@+id/idcheck"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nicknametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="닉네임"
+        app:layout_constraintBottom_toTopOf="@+id/nametext"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <EditText
+        android:id="@+id/pwtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/nicknametext"
+        app:layout_constraintTop_toBottomOf="@+id/idtext"
+        app:layout_constraintVertical_bias="0.681"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <EditText
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="이름"
+        app:layout_constraintBottom_toTopOf="@+id/statustext"
+        tools:layout_editor_absoluteX="55dp" />
+
+    <EditText
+        android:id="@+id/statustext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="상태"
+        app:layout_constraintBottom_toTopOf="@+id/submit"
+        tools:layout_editor_absoluteX="55dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="340dp"
+        android:text="회원가입"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="121dp" />
+
+    <Button
+        android:id="@+id/idcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="중복확인"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idtextss"
+        android:layout_width="213dp"
+        android:layout_height="20dp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/pwtext"
+        app:layout_constraintTop_toBottomOf="@+id/idtext"
+        app:layout_constraintVertical_bias="0.157"
+        tools:layout_editor_absoluteX="53dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

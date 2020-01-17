@@ -1,0 +1,3 @@
+/target/
+/src/main/resources/fcm
+/src/main/java/com/test/messenger/fcm/Config.java

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "365552257395",
+    "firebase_url": "https://messagetest-f2ae9.firebaseio.com",
+    "project_id": "messagetest-f2ae9",
+    "storage_bucket": "messagetest-f2ae9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365552257395:android:f2ce9c579e6dbab06a9d06",
+        "android_client_info": {
+          "package_name": "com.test.messeger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365552257395-c9a3vgrhi4c31cghbf2em94hjrh5lb93.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.test.messeger",
+            "certificate_hash": "38bd44fe3a434dbed40072c97e084ca42e5b6a8b"
+          }
+        },
+        {
+          "client_id": "365552257395-7eh4bvqfe295t04sku5qmnsk93utl5i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7AHqDvYZpBtZJPvN_yHmiyOdCC3GQwTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365552257395-7eh4bvqfe295t04sku5qmnsk93utl5i2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
